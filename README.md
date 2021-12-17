@@ -11,4 +11,4 @@
 
 ##  Use cases diagram
 
-![](/home/marwan/projects/Online-examination-with-anti-cheat-system/Use cases diagram/Use-cases.drawio.png)
+![](Use%20cases%20diagram/Use-cases.drawio.png)
