@@ -1,6 +1,6 @@
 <div align="center">
   <br>
-  <h1>Online examination with anti cheat system</h1>
+  <h1>D-Exam with Anti Cheat System</h1>
 </div>
 
 
