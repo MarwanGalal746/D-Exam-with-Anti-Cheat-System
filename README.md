@@ -19,3 +19,9 @@ With the current world pandemic everyone is moving towards online exams as it’
 ##  Use cases diagram
 
 ![](Use%20cases%20diagram/Use-cases.drawio.png)
+
+##  ERD
+
+Check the diagram from [here](https://dbdiagram.io/d/61c389343205b45b73c975c7).
+
+![](./ERD/erd.png)
