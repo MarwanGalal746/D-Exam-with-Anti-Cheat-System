@@ -8,6 +8,7 @@
 - [**Summary**](#summary)
 - [**Features**](#features)
 - [**System architecture**](#system-architecture)
+- [**Stakeholders**](#stakeholders)
 - [**Use cases diagram**](#use-cases-diagram)
 - [**ERD**](#erd)
   - [**User service**](#user-service)
@@ -31,7 +32,16 @@ With the current world pandemic everyone is moving towards online exams as it’
 
 ![](System%20architecture/system-architecture.png)
 
-##  
+##  Stakeholders
+
+- **Teacher**: Possess the professional knowledge to lead create course(s) for students
+  that will include exam(s), those exam(s) questions will be created by the teacher as
+  well as their answers. 
+- **Student**: Participates in the process by joining those courses that are created by the
+  teachers as well as taking the exams that are assigned to him by those teachers in
+  those courses.
+- **Developer**: Designs the system that includes the interaction between the teachers
+  and students through the courses as well as the exams.
 
 ##  Use cases diagram
 
