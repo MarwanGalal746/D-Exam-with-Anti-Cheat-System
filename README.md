@@ -11,10 +11,15 @@
 - [**System architecture**](#system-architecture)
 - [**Stakeholders**](#stakeholders)
 - [**Use cases diagram**](#use-cases-diagram)
-- [**ERD**](#erd)
+- [**Class diagram**](#class-diagram)
   - [**User service**](#user-service)
-  - [**Course service**](#Course-service)
-  - [**Exam service**](#Exam-service)
+  - [**Course service**](#course-service)
+  - [**Exam service**](#exam-service)
+
+- [**ERD**](#erd)
+  - [**User service**](#user-service-1)
+  - [**Course service**](#course-service-1)
+  - [**Exam service**](#exam-service-1)
 
 
 ## Summary
@@ -87,6 +92,28 @@ With the current world pandemic everyone is moving towards online exams as it’
 ##  Use cases diagram
 
 ![](Use%20cases%20diagram/Use-cases.drawio.png)
+
+##  Class diagram
+
+### User service
+
+![](./Class%20diagram/user-service-cd.png)
+
+### Course service
+
+![](./Class%20diagram/course-service-cd.png)
+
+### Exam service
+
+![](./Class%20diagram/exam-service-cd.png)
+
+### Tools services
+
+![](./Class%20diagram/tools-services-cd.png)
+
+
+
+
 
 ##  ERD
 
