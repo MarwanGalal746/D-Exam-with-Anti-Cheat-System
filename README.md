@@ -8,7 +8,7 @@
 - [**Summary**](#summary)
 - [**Features**](#features)
 - [**System architecture**](#system-architecture)
-- [**Use case diagram**](#use-case-diagram)
+- [**Use cases diagram**](#use-cases-diagram)
 - [**ERD**](#erd)
   - [**User service**](#user-service)
   - [**Course service**](#Course-service)
