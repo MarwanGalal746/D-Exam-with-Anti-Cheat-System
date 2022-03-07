@@ -71,7 +71,7 @@ With the current world pandemic everyone is moving towards online exams as it’
 
 ##  System architecture
 
-![](System%20architecture/system-architecture.png)
+![](System%20architecture/system-architecture.jpg)
 
 ##  Stakeholders
 
