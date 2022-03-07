@@ -1,0 +1,22 @@
+Table Course {
+  id serial [pk, increment]
+  name varchar(70)  [not null, unique]
+  code varchar(10)  [not null, unique]
+  user_id integer [not null]
+  created_at timestamp [default: `now()`, not null]
+  expired_at timestamp [default: `now()`, not null]
+  Indexes{
+     id
+  }
+}
+
+Table Student_course {
+  id serial [pk, increment]
+  user_id integer [not null]
+  course_id integer [not null, ref: > Course.id]
+  created_at timestamp [default: `now()`, not null]
+  updated_at timestamp [default: `now()`, not null]
+  Indexes{
+     (user_id, course_id) [unique]
+  }
+}

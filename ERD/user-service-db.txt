@@ -1,0 +1,23 @@
+Table User {
+  id serial [pk, increment]
+  name varchar(70)  [not null]
+  email text [not null, unique]
+  national_id text [not null, unique]
+  password text [not null]
+  img_url text [not null, unique]
+  role_id integer [not null, ref: > Role.id]
+  created_at timestamp [default: `now()`, not null]
+  updated_at timestamp [default: `now()`, not null]
+  Indexes{
+     email
+     id
+  }
+}
+
+Table Role {
+  id serial [pk, increment]
+  name varchar(70)  [not null, unique]
+  Indexes{
+     id
+  }
+}
