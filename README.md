@@ -21,7 +21,7 @@ With the current world pandemic everyone is moving towards online exams as it’
 
 - **IP Detection**: Checking if there are multiple students using the same internet, action will be taken manually from the supervisor/authorized person.
 
-- ##  Use cases diagram
+- ##  System architecture
 
   ![](System%20architecture/system-architecture.png)
 
