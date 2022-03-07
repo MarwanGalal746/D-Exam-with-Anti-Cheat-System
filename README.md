@@ -17,9 +17,9 @@
   - [**Exam service**](#exam-service)
 
 - [**ERD**](#erd)
-  - [**User service**](#user-service)
-  - [**Course service**](#course-service)
-  - [**Exam service**](#exam-service)
+  - [**User service**](#user-service-1)
+  - [**Course service**](#course-service-1)
+  - [**Exam service**](#exam-service-1)
 
 
 ## Summary
