@@ -15,11 +15,13 @@
   - [**User service**](#user-service)
   - [**Course service**](#course-service)
   - [**Exam service**](#exam-service)
-- [**Sequence diagram**](#sequence-diagram)
 - [**ERD**](#erd)
   - [**User service**](#user-service-1)
   - [**Course service**](#course-service-1)
   - [**Exam service**](#exam-service-1)
+- [**Documentation**](#documentation)
+- [**Implementation**](#Implementations)
+- [**Contributers**](#contributers)
 
 
 ## Summary
@@ -113,16 +115,6 @@ With the current world pandemic everyone is moving towards online exams as it’
 
 
 
-##  Sequence diagram
-
-### Anti-cheating
-
-![](./Sequence%20diagram/antiCheating.png)
-
-You will find the rest of the sequence diagrams [here](./Sequence%20diagram/).
-
-### 
-
 
 
 ##  ERD
@@ -142,3 +134,18 @@ You will find the rest of the sequence diagrams [here](./Sequence%20diagram/).
 We created three databases communicate with each others using a message broker because of we use microservices architecture as shown in the [System architecture](#System-architecture). but to make the reader relates about the relations between the three databases using foreign keys, we put the ERD of the database if we used a shared database.
 
 ![](./ERD/shared-db.png)
+
+## Documentation
+
+You can find the full documentation from [**here**](https://drive.google.com/drive/folders/1eN-Rw6rQfc2HoDhWmEsNImZVMKjVF78b?usp=sharing).
+
+## Implementation
+
+- [**Frontend**](https://github.com/Abdelrhman-ammar/CheatingApp_front).
+- [**Backend**](https://github.com/MarwanGalal746/D-Exam-with-Anti-Cheat-System-Backend).
+
+## Contributers
+
+[**Abdelrahman Ali**](https://github.com/abdelrahmanali6), [**Abdelrahman Ammar**](https://github.com/Abdelrhman-ammar), [**Eyad Youssef**](https://github.com/Eyadzz) and [**Marwan Galal**](https://github.com/MarwanGalal746)
+
+##  
