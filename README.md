@@ -15,7 +15,7 @@
   - [**User service**](#user-service)
   - [**Course service**](#course-service)
   - [**Exam service**](#exam-service)
-
+- [**Sequence diagram**](#sequence-diagram)
 - [**ERD**](#erd)
   - [**User service**](#user-service-1)
   - [**Course service**](#course-service-1)
@@ -112,6 +112,16 @@ With the current world pandemic everyone is moving towards online exams as it’
 ![](./Class%20diagram/tools-services-cd.png)
 
 
+
+##  Sequence diagram
+
+### Anti-cheating
+
+![](./Sequence%20diagram/antiCheating.png)
+
+You will find the rest of the sequence diagrams [here](./Sequence%20diagram/).
+
+### 
 
 
 
