@@ -22,6 +22,10 @@
 
 With the current world pandemic everyone is moving towards online exams as it’s much safer for the students, with that said, our project aims to have a reliable exams system that prevent students from cheating. Our system will give teachers the ability to create their own exams and provide them to their students. The system will have an efficient anti-cheat system with uncommon cheating detection techniques that aims to achieve equality and fairness. It will not be limited to Multiple-Choice Questions only and will have different types of questions so that the grading system will not be restricted only to the final answer with an auto correction for some types of questions.
 
+##  System architecture
+
+![](System%20architecture/system-architecture.png)
+
 ##  Functional requirements
 
 - **Signing Up and Registration**
@@ -67,10 +71,6 @@ With the current world pandemic everyone is moving towards online exams as it’
 - **Compatibility**: Anti-Cheat must be compatible with the different modern browsers.
 - **Reliability**: The system should not fail during any stage of examination process
   from authentication to taking the exam.
-
-##  System architecture
-
-![](System%20architecture/system-architecture.png)
 
 ##  Stakeholders
 
