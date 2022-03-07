@@ -1,0 +1,56 @@
+Table Exam {
+  id serial [pk, increment]
+  name varchar(70)  [not null]
+  course_id integer [not null]
+  created_at timestamp [default: `now()`, not null]
+  exam_date timestamp [default: `now()`, not null]
+  duartion timestamp [default: `now()`, not null]
+  total_mark integer [not null]
+  updated_at timestamp [default: `now()`, not null]
+  Indexes{
+     id
+  }
+}
+
+
+Table Qs {
+  id serial [pk, increment]
+  question text [not null, unique]
+  answer text [not null]
+  grade integer [not null]
+  exam_id integer [not null, ref: > Exam.id]
+  created_at timestamp [default: `now()`, not null]
+  updated_at timestamp [default: `now()`, not null]
+  Indexes{
+     (id, exam_id) [unique]
+  }
+}
+
+Table Choice {
+  id serial [pk, increment]
+  question_id text [not null, unique, ref: > Qs.id]
+  choice text [not null]
+  created_at timestamp [default: `now()`, not null]
+  updated_at timestamp [default: `now()`, not null]
+  Indexes{
+     (id, question_id) [unique]
+  }
+}
+
+
+Table Student_grade {
+  id serial [pk, increment]
+  grade integer [not null]
+  User_id integer [not null]
+  Exam_id integer [not null, ref: > Exam.id]
+  Course_id integer [not null]
+  cheating_status boolean [not null]
+  created_at timestamp [default: `now()`, not null]
+  updated_at timestamp [default: `now()`, not null]
+}
+
+Table Report {
+  id serial [pk, increment]
+  report text [not null]
+  Student_grade_id integer [not null, ref: > Student_grade.id]
+}
