@@ -10,6 +10,7 @@
 - [**System architecture**](#system-architecture)
 - [**Stakeholders**](#stakeholders)
 - [**Functional requirements**](#functional-requirements)
+- [**Non-functional requirements**](#non-functional-requirements)
 - [**Use cases diagram**](#use-cases-diagram)
 - [**ERD**](#erd)
   - [**User service**](#user-service)
@@ -49,6 +50,23 @@ With the current world pandemic everyone is moving towards online exams as it’
   - **Face Authentication**: User will have to verify his identity before entering the exam by scanning his face through the laptop’s camera and comparing it with his existing profile picture on the system, it will continue with him through the session by either taking multiple screenshots at different time or only when the system detects a change that needs a confirmation. 
   - **Eye Tracking**: User will have to look at some objects on the screen to determine the dimensions of the screen then the system will detect any suspicious behavior from the user (looking at his phone/book/another screen). The system will not always take an immediate action but will be there different scenarios for this.
   - **Restricting Device Usage**: User will not be able to normally use the device till he finishes the exam. OS services and applications will be suspended. 
+
+##  Non functional requirements
+
+- **Robustness**: The system is robust and handle invalid user unusual input and
+  situations without crashing (Invalid picture input, email regex, etc).
+- **Usability**: Interface should be simple, convenient and easy for teachers and students
+  to learn and use it efficiently. User should only need 1 or 2 clicks to reach his
+  destination.
+- **Security**: Preventing unauthorized access to the database and code injection
+  techniques such as SQL injection. Verifying user whenever he logs in from another
+  device.
+- **Performance and Scalability**: Considering the large number of students in each
+  level of education, the response time must be within 800ms and page loading should
+  not take more than 3 seconds.
+- **Compatibility**: Anti-Cheat must be compatible with the different modern browsers.
+- **Reliability**: The system should not fail during any stage of examination process
+  from authentication to taking the exam.
 
 ##  System architecture
 
