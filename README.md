@@ -41,6 +41,6 @@ With the current world pandemic everyone is moving towards online exams as it’
 
 ![](./ERD/exam-service-db.png)
 
-We created three databases communicate with each others using a message broker because of we use microservices architecture as shown in the [System architecture](#System%20architecture). but to make the reader relates about the relations between the three databases using foreign keys, we put the ERD of the database if we used a shared database.
+We created three databases communicate with each others using a message broker because of we use microservices architecture as shown in the [System architecture](##System%20architecture). but to make the reader relates about the relations between the three databases using foreign keys, we put the ERD of the database if we used a shared database.
 
 ![](./ERD/shared-db.png)
