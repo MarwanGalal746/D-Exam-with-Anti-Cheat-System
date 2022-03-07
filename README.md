@@ -6,11 +6,10 @@
 ## Table of contents
 
 - [**Summary**](#summary)
-- [**Features**](#features)
-- [**System architecture**](#system-architecture)
-- [**Stakeholders**](#stakeholders)
 - [**Functional requirements**](#functional-requirements)
 - [**Non-functional requirements**](#non-functional-requirements)
+- [**System architecture**](#system-architecture)
+- [**Stakeholders**](#stakeholders)
 - [**Use cases diagram**](#use-cases-diagram)
 - [**ERD**](#erd)
   - [**User service**](#user-service)
