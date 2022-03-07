@@ -4,6 +4,7 @@
 </div>
 
 
+
 ## Summary
 
 With the current world pandemic everyone is moving towards online exams as it’s much safer for the students, with that said, our project aims to have a reliable exams system that prevent students from cheating. Our system will give teachers the ability to create their own exams and provide them to their students. The system will have an efficient anti-cheat system with uncommon cheating detection techniques that aims to achieve equality and fairness. It will not be limited to Multiple-Choice Questions only and will have different types of questions so that the grading system will not be restricted only to the final answer with an auto correction for some types of questions.
@@ -15,6 +16,12 @@ With the current world pandemic everyone is moving towards online exams as it’
 - **Keystrokes**: User keyboard’s input will be recorded/detected to prevent the eye tracking from being triggered. 
 - **Restricting Device Usage**: User will not be able to normally use the device till he finishes the exam. OS services and applications will be suspended. 
 - **IP Detection**: Checking if there are multiple students using the same internet, action will be taken manually from the supervisor/authorized person.
+
+##  System architecture
+
+![](System%20architecture/system-architecture.png)
+
+##  
 
 ##  Use cases diagram
 
@@ -37,4 +44,3 @@ With the current world pandemic everyone is moving towards online exams as it’
 We created three databases communicate with each others using a message broker because of we use microservices architecture as shown in the [System architecture](#System architecture). but to make the reader relates about the relations between the three databases using foreign keys, we put the ERD of the database if we used a shared database.
 
 ![](./ERD/shared-db.png)
-
